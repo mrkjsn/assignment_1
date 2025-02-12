@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Forms</title>
+    </header>
+    <body>
+    
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="ison">Ison</label>
+            <input type="text" id="ison" name="ison">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+
+          <form>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+
+            <label for="check">CheckBox</label>
+            <input type="checkbox" id="check" name="check">
+
+            <label for="cat">Cat</label>
+            <input type="radio" id="cat" name="pet_choices" value="cat">
+            <label for="dog">Dog</label>
+            <input type="radio" id="dog" name="pet_choices" value="dog">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+
+            <label for="food">Food Choices</label>
+            <select id="food" name="food">
+                <option value="macarons">Macarons</option>
+                <option value="salad">Salad</option>
+            </select>
+          </form>
+
+          <form action="/submit_form" method="POST">
+            <label for="profile">Profile</label>
+            <input type="file" id="profile" name="profile" alt="upload pls">
+            <input type="submit" value="Submit">
+          </form>
+    </body>
+</html>
