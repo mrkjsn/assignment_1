@@ -1,0 +1,9 @@
+p {
+    color: red; /* 1 point */
+  }
+  .warning {
+    color: yellow; /* 10 points */
+  }
+  #main {
+    color: green; /* 100 points */
+  }

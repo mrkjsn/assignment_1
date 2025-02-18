@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html "lang="en">
     <head>
         <title>My Portfolio</title>
+        <link rel = "stylesheet" href="styles.css" />
         <meta name="description" content="This is my portfolio">
     </head>
     <body>
         <header>
-            <h1>Welcome to my Portfolio</h1>
-            <nav>
+            <h1 class = "header_title">Welcome to my Portfolio</h1>
+            <nav class = 'navbar'>
                 <ul>
                     <li><a href = "#">About Me</a></li>
                     <li><a href = "#">Projects</a></li>
@@ -15,9 +16,9 @@
                 </ul>
             </nav>
         </header>
-        <section>
+        <section class="about_me">
             <h2>About ME</h2>
-            <p>Hello! I am Mark Jason Soy, a 4th year Computer Engineering Student at Bohol Island State University</p>
+            <p>Hello! I am Mark Jason Soy, a 4th year Computer Engineering Student at Bohol Island State University.</p>
         </section>
         <section>
             <h2>My Projects</h2>
@@ -50,13 +51,13 @@
         </section>
         <section>
             <h2>Contact Me</h2>
-            <form>
+            <form class="form_enter">
                 <label for="name">Full Name:</label>
                 <input type="text" id="name" name="name"><br>
                 <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email">
             </form>
-            <fieldset>
+            <fieldset class="form_choice">
                 <legend>How did you hear about this portfolio?</legend>
                 <form>
                     <input type="radio" id="1" name="radio" value="friend">
@@ -69,7 +70,7 @@
                     <label for="4">Other</label><br>
                 </form>
             </fieldset>
-            <fieldset>
+            <fieldset class="form_choice">
                 <legend>Skiils/Interests</legend>
                 <form>
                     <input type="checkbox" id="web" name="web">
@@ -80,10 +81,10 @@
                     <label for="photography">Photograpy</label><br>
                 </form>
             </fieldset>
-            <form>
+            <form class="comments">
                 <label for="comments">Comments or Messages</label><br>
                 <textarea id="comments" name="comments"></textarea><br>
-                <input type="submit" value="Submit">
+                <input id ="input" type="submit" value="Submit">
             </form>
         </section>
         <footer>
