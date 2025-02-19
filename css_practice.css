@@ -7,3 +7,25 @@ p {
   #main {
     color: green; /* 100 points */
   }
+
+  .container {
+    height: 150px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: top;
+  }
+  .small {
+    height: 30px;
+    background-color: lightblue;
+  }
+  .large {
+    background-color: powderblue;
+  }
