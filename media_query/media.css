@@ -1,0 +1,150 @@
+/* Phone screens */
+@media (max-width: 480px) {
+    .popular {
+        ul {
+            flex-direction: column;
+        }
+    }
+  }
+  
+  /* Tablet screens */
+  @media (min-width: 481px) and (max-width: 1023px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Desktop screens */
+  @media (min-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Super Sans", "ITC Avant Garde Gothic", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #010101;
+    color: white;
+    padding: .5%;
+    width: 100%;
+
+    .left {
+        display: flex;
+        flex-wrap: nowrap;
+        img {
+            height: 3rem;
+        }
+        h2 {
+            font-size: 90%;
+        }
+
+        h6 {
+            font-size: 1.3rem;
+            color: grey;
+            margin-bottom: 0.4rem;
+        }
+
+        div {
+            margin-left: 1rem;
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            gap: 0.5rem;
+            display: flex;
+            align-items: center;
+            margin-right: 0.5rem;
+
+            li {
+                display: flex;
+                height: 3rem;
+                align-items: center;
+
+                i, h6, .fas, fa {
+                    background-color: #454857;
+                    padding-top: 0.8rem;
+                    padding-bottom: 0.8rem;
+                    padding-left: 1.2rem;
+                    padding-right: 1.2rem;
+                }
+
+                h6, .fa-heart {
+                    border-radius: 5%;
+                }
+
+                .fa-chevron-down {
+                    margin-left: 0.4rem;
+                    border-top-right-radius: 5%;
+                    border-bottom-right-radius: 5%;
+                }
+
+                .fa-thumbtack {
+                    border-top-left-radius: 5%;
+                    border-bottom-left-radius: 5%;
+                }
+                
+            }
+
+            .fa-heart, .fas {
+                font-size: 1.4rem;
+            }
+        }
+
+        img {
+            height: 3rem;
+        }
+    }
+}
+
+.media {
+    color: white;
+    margin: 10%;
+    
+    ul {
+        list-style: none;
+        align-items: start;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px; 
+        border: 1px solid grey;
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        box-sizing: border-box;
+        color: black;
+        
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+
+    }
+}
+

@@ -1,0 +1,404 @@
+/* Phone screens */
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+        }
+    }
+    
+    /* Tablet screens */
+    @media (min-width: 481px) and (max-width: 1023px) {
+    body {
+        background-color:  blue;
+        }
+    }
+    
+    /* Desktop screens */
+    @media (min-width: 1024px) {
+    body {
+        background-color: #FCFCFC;
+        }
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 10px;
+        font-family: "Super Sans", "ITC Avant Garde Gothic", sans-serif;
+    }
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #002056;
+    color: white;
+    padding: 1.1%;
+    font-family: Super Sans, sans-serif;
+    
+    img {
+        width: 12%;
+        margin-left: 2%;
+    }
+
+    .cart {
+        display: flex;
+        align-items: center;
+    }
+
+    .search {
+        display: flex;
+        margin-left: 2%;
+    }
+
+    .search h6 {
+        background-color: white;
+        padding-top: 13px;
+        padding-left: 17px;
+        padding-bottom: 13px;
+        padding-right: 660px;
+        color: #A79D98;
+        font-size: 1.4rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .search_icon {
+        background-color: #F17D19;
+        /* padding: 30%; */
+        width: 45px;
+        padding: 10px;
+        text-align: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        i {
+            font-size: 2rem;
+        }
+    }
+
+    .nav_text {
+        font-size: 1.4rem;
+    }
+
+    .log{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }   
+    .contact {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .cart {
+        border-left: solid 1px grey;
+        border-right: solid 1px grey;
+        width: 10%;
+        padding-left: 1%;
+        text-align: center;
+        padding-right: 1%;
+    }
+
+    .cart i {
+        font-size: 2rem;
+        padding-right: 10%;
+        padding-left: 7%;
+    }
+
+}
+
+.top {
+
+    background-color: white;
+    font-family: Super Sans, sans-serif;
+
+    ul {
+        margin-left: 1.5%;
+    }
+
+    li {
+        display: inline-block;
+        padding-top: 1.5%;
+        padding-right: 1.6%;
+        padding-left: 1.6%;
+        padding-bottom: 1.5%;
+        font-size: 1.3rem;
+    }
+
+    i {
+        font-size: 0.8rem;
+        margin-left: 8px;
+    }
+}
+
+.center {
+    width: 100%;
+}
+
+.categories_pic {
+    display: flex;
+    justify-content: start;
+    margin-top: 1.7%;
+    gap: 2.5%;
+
+    img {
+        border-radius: 100%;
+        height: 210px;
+    }
+
+    .pic_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h6 {
+            font-size: 1.7rem;
+            margin-top: 7%;
+        }
+    }
+}
+
+#cat {
+    font-size: 2.2rem;
+}
+
+.categories, .exclusive {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+}
+
+.exclusive_pics {
+    display: flex;
+    position: relative;
+    margin-top: 1.5%;
+
+    h6 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    img {
+        height: 210px;
+    }
+
+    .air {
+        height: 70px;
+        margin-top: 30%;
+    }
+
+    .pic11 {
+        height: 210px;
+    }
+
+    .pic12 {
+        height: 210px;
+    }
+
+    .pic7 {
+        height: 200px;
+    }
+
+    .pic8 {
+        height: 200px;
+    }
+
+    .exdiv7 {
+        position: absolute;
+        left: 4%;
+    }
+
+    .exdiv8 {
+        position: absolute;
+        left: 21%;
+    }
+
+    .exdiv9 {
+        position: absolute;
+        left: 35%;
+    }
+
+    .exdiv10 {
+        position: absolute;
+        left: 52%;
+    }
+
+    .exdiv11 {
+        position: absolute;
+        left: 72%;
+    }
+
+    .exdiv12 {
+        position: absolute;
+        left: 90%;
+    }
+
+}
+
+.brand  {
+    ul {
+        display: flex;
+        flex-wrap: nowrap;  
+        list-style: none;
+        padding: 0;
+        margin-top: 16.7%;
+        overflow: hidden; 
+        margin-left: 0%;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1.2rem;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+     .brand1 {
+        margin-right: 2%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .brand2 {
+        margin-right: 4%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .brand3 {
+        margin-right: 4%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .brand4 {
+        margin-right: 4%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .brand5 {
+        margin-right: 1%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .brand6 {
+        margin-right: 0%;
+        padding-left: 0;
+        padding-right: 0;
+    } 
+}
+
+.title {
+    ul {
+        margin-top: 15.4%;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+
+    .title1 {
+        position: absolute;
+        left: 7%;
+    }
+
+    .title2 {
+        position: absolute;
+        left: 24%;
+    }
+
+    .title3 {
+        position: absolute;
+        left: 42%;
+    }
+
+    .title4 {
+        position: absolute;
+        left: 57%;
+    }
+
+    .title5 {
+        position: absolute;
+        left: 72.7%;
+    }
+
+    .title6 {
+        position: absolute;
+        left: 88.4%;
+    }
+}
+
+.price {
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 5% ;
+
+    }
+
+    li {
+        display: inline-block;
+        font-size: 2rem;
+    }
+
+    .money {
+        display: flex;
+        align-items: center;
+    }
+
+    .money2 {
+        font-size: 1.3rem;
+        color: grey;
+        text-decoration: line-through;
+    }
+
+    .save {
+        color: red;
+        font-weight: bold;
+        margin-left: 15px; 
+    }
+}
+
+
+.box3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+    img {
+        height: 30px;
+        padding-right: 15px;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.1rem;
+    }
+}
+
+.del {
+    display: flex;
+    align-items: start;
+    width: 270px;
+}
+
+footer {
+    margin-top: 70px;
+    padding: 50px;
+    font-size: 1.7rem;
+    text-align: center;
+    height: 100px;
+    background-color: #333232;
+    color: white;
+}
