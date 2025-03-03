@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Super Sans", "ITC Avant Garde Gothic", sans-serif;
+}
+
+body {
+    background-image: url('assets/bg.jpg');
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), 
+                url('netflix_assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.container {
+    color: white;
+    margin-top: 10%;
+    
+    h4 {
+        font-size: 2.5rem;
+    }
+}
+
+.more {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+
+.col {
+    background-color: #192247;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* box-sizing: border-box; */
+    border-radius: 20px;
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 2.3rem;
+        color: #BABDC8;
+    }
+}
+
+/* Responsive grid */
+@media (max-width: 480px) {
+    .sm-4 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    .md-2 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .lg-1 {
+        width: 23%;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    align-items: center;
+
+    h1 {
+        color: red;
+        font-family: "Epic", normal;
+        font-size: 2.6rem;
+    }
+
+    button {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: 1.3rem;
+        color: white;
+        border-radius: 5px;
+    }
+
+    #english {
+        background-color: rgba(0, 0, 0, 0.9);
+        border: solid 1px rgb(106, 103, 103);
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        i {
+            margin-left: .5rem;
+            font-size: 0.8rem;
+        }
+    }
+
+    #sign {
+        background-color: red;
+        border: solid 1px red;
+    }
+
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 150px;
+
+    h2, h5, h6 {
+        color: white;
+    }
+
+    h2 {
+        width: 400px;
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    h6 {
+        font-size: 1.7rem;
+        width: 500px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    input::placeholder {
+        font-size: 1.5rem;
+    }
+
+    #ready {
+        font-size: 1.6rem;
+    }
+
+  
+    input {
+        padding-top: 1.7rem;
+        padding-bottom: 1.7rem;
+        padding-left: 1.5rem;
+        padding-right: 10rem;
+        border-radius: 5px;
+        margin-right: 0.9rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #B7B7B7;
+        border: solid 1px #535353;
+
+    }
+
+    button {
+        border-radius: 5px;
+        font-size: 1.5rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.7rem;
+        padding-left: 2.9rem;
+        padding-right: 2.9rem;
+        border: none;
+        background-color: red;
+        color: white;
+
+        i {
+            margin-left: 1rem;
+        }
+    }
+}
+
+.trending {
+    color: white;
+    margin-top: 250px;
+    h4 {
+        font-size: 2.5rem;
+    }
+
+    img {
+        border-radius: 5px;
+        width: 16%;
+    }
+
+    .trending_pics {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+
+        i {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+
+    h6 {
+        font-size: 2rem;
+        margin-bottom: 1.5%;
+    }
+
+    form {
+        margin-top: 1.5%;
+        margin-bottom: 6%;
+    }
+
+    input {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 55rem;
+        border-radius: 5px;
+        margin-right: 0.9rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #B7B7B7;
+        border: solid 1px #535353;
+
+    }
+
+    button {
+        border-radius: 5px;
+        font-size: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 4rem;
+        padding-right: 4.5rem;
+        border: none;
+        background-color: red;
+        color: white;
+
+        i {
+            margin-left: 1rem;
+        }
+    }
+
+    input::placeholder {
+        font-size: 2rem;
+    }
+
+
+}
