@@ -17,7 +17,7 @@ header {
     top: 0px;
     background-color: white;
     z-index: 1000;
-    width: 100%;
+    /* width: 100%; */
     border-bottom: solid 1px #EAEBED;
     border-top: solid 1px #E46F0D;
     left: 0;

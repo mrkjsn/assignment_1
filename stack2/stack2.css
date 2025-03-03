@@ -1,0 +1,614 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Super Sans", "ITC Avant Garde Gothic", sans-serif;
+}
+
+@media (max-width: 480px) {
+
+    .bg {
+        position: absolute;
+        left: 140px;
+        top: 47px;
+        z-index: -1;
+        height: 4.3rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    header {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: start;
+        height: 50px;
+        overflow: hidden;
+        width: 100%; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        z-index: 1000; 
+        border-bottom: solid 1px #D6D9DC;
+        border-top: solid 1px #E7700D;
+        background-color: white;
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+        img {
+            height: 3.5rem;
+            padding-left: 10px;
+        }
+    
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            flex-wrap: nowrap;
+            margin-left: 1%;
+        }
+    
+        li {
+            color: rgba(0,0,0,0.5);
+            font-size: 1.4rem;
+        }
+    
+        button {
+            border-radius: 5px;
+            font-size: 1.3rem;
+            white-space: nowrap;
+            width: 6rem;
+        }
+    
+        .login {
+            color: #1B75D0;
+            border: solid 1px #1B75D0;
+            background-color: white;
+        }
+        
+        .signup {
+            background-color: #1B75CF;
+            color: white;
+            border: solid 1px #1B75CF;
+        }
+    
+        input {
+            padding-left: 5%;
+            padding-right: 0%;
+            height: 35px;
+            border-radius: 5px;
+            border: solid 1px #d2d2d2;
+            flex: 1; 
+        }
+    
+        form {
+            display: flex;
+            gap: 5px;
+            margin-left: 1%;
+            width: 100%;
+            padding-right: 10px;
+        }
+    }
+
+    .bg {
+        position: absolute;
+        left: 140px;
+        top: 47px;
+        z-index: -1;
+        height: 4.3rem;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px;
+        width: 100%;
+        
+        .illo {
+            width: 100%;
+        }
+    }
+
+    .scroll {
+        margin-left: 15rem;
+        padding-left: 40px;
+        padding-right: 15px;
+        h2 {
+            font-size: 1.9rem;
+            color: rgba(0,0,0, 0.5);
+            margin-top: 45px;
+            text-align: center;
+        }
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-left: 40px;
+        padding-top: 40px;
+        border: solid 2px rgb(242, 242, 242);
+        border-radius: 10px;
+        margin-top: 5%;
+        .teams_logo {
+            height: 5rem;
+        }
+
+        p {
+            font-size: 2.3rem;
+            padding-right: 40px;
+            margin-top: 20px
+        }
+
+        .explore {
+            background-color: #1B75CF;
+            color: rgba(255,255,255,0.8);
+            border: none;
+            padding-right: 1.6%;
+            padding-left: 1.6%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+        }
+        
+        .try {
+            background-color: transparent;
+            border: none;
+            color: #1B75CF;
+            margin-top: 30px;
+            margin-left: 2%;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        .home-teams {
+            width: 100%;
+            margin-top: 40px;
+        }
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-top: 40px;
+        margin-top: 2%;
+        border-radius: 10px;
+        color: white;
+        background-color: #3B4045;
+        .overflow {
+            width: 100%;
+        }
+
+        p {
+            font-size: 2.3rem;
+            padding-right: 40px;
+            margin-top: 20px
+        }
+
+        .ai {
+            height: 5rem;
+        }
+
+        button {
+            background-color: #E7700D;
+            color: rgba(255,255,255,0.8);
+            border: none;
+            padding-right: 1.8%;
+            padding-left: 1.8%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+            margin-top: 25px;
+            i {
+                font-size: 1.1rem;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .box4 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+
+        .advertising {
+            height: 5rem;
+        }
+
+        p {
+            font-size: 2.2rem;
+            padding-right: 40px;
+            margin-top: 20px
+        }
+
+        .box4_left, .box4_right {
+            border-radius: 10px;
+            border: solid 2px rgb(242, 242, 242);
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-top: 2%;
+        }
+
+        .advertise {
+            background-color: #1B75CF;
+            color: rgba(255,255,255,0.8);
+            border: none;
+            padding-right: 1.8%;
+            padding-left: 1.8%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 2%;
+        }
+
+        .build {
+            background-color: transparent;
+            border: none;
+            color: #1B75CF;
+            margin-top: 30px;
+            font-weight: 500;
+            text-decoration: underline;
+            margin-bottom: 0px;
+            font-size: 1.3rem;
+            margin-left: 10px;
+        }
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: start;
+        height: 50px;
+        overflow: hidden;
+        width: 100%; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        z-index: 1000; 
+        border-bottom: solid 1px #D6D9DC;
+        border-top: solid 1px #E7700D;
+        background-color: white;
+        img {
+            height: 3.5rem;
+            padding-left: 150px;
+        }
+    
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            flex-wrap: nowrap;
+            margin-left: 1%;
+        }
+    
+        li {
+            color: rgba(0,0,0,0.5);
+            font-size: 1.4rem;
+        }
+    
+        button {
+            border-radius: 5px;
+            font-size: 1.3rem;
+            white-space: nowrap;
+            width: 6rem;
+        }
+    
+        .login {
+            color: #1B75D0;
+            border: solid 1px #1B75D0;
+            background-color: white;
+        }
+        
+        .signup {
+            background-color: #1B75CF;
+            color: white;
+            border: solid 1px #1B75CF;
+        }
+    
+        input {
+            padding-left: 5%;
+            padding-right: 0%;
+            height: 35px;
+            border-radius: 5px;
+            border: solid 1px #d2d2d2;
+            flex: 1; 
+        }
+    
+        form {
+            display: flex;
+            gap: 5px;
+            margin-left: 1%;
+            width: 100%;
+            padding-right: 150px;
+        }
+    }
+
+    body {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .bg {
+        position: absolute;
+        left: 140px;
+        top: 47px;
+        z-index: -1;
+        height: 4.3rem;
+    }
+
+    .illo {
+        height: 28rem;
+    }
+
+    .scroll {
+        margin-left: 15rem;
+        padding-left: 40px;
+        width: 100%;
+        margin-right: 150px;
+        h2 {
+            font-size: 1.6rem;
+            color: rgba(0,0,0, 0.5);
+            margin-top: 45px;
+            padding-left: 40px;
+        }
+    }
+
+    .box2 {
+        display: flex;
+        margin-right: 150px;
+        justify-content: start;
+        padding-left: 40px;
+        padding-top: 40px;
+        border: solid 2px rgb(242, 242, 242);
+        border-radius: 10px;
+        margin-top: 5%;
+        .teams_logo {
+            height: 4rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+            padding-right: 40px;
+            margin-top: 20px;
+        }
+
+        .explore {
+            background-color: #1B75CF;
+            color: rgba(255,255,255,0.8);
+            border: none;
+            padding-right: 1.6%;
+            padding-left: 1.6%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+        }
+        
+        .try {
+            background-color: transparent;
+            border: none;
+            color: #1B75CF;
+            margin-top: 25px;
+            margin-left: 2%;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        .home-teams {
+            height: 20rem;
+        }
+    }
+
+    .box3 {
+        display: flex;
+        margin-right: 150px;
+        padding-left: 40px;
+        padding-top: 40px;
+        margin-top: 3%;
+        border-radius: 10px;
+        color: white;
+        background-color: #3B4045;
+        .overflow {
+            height: 20rem;;
+        }
+
+        p {
+            font-size: 1.6rem;
+            padding-right: 40px;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        .ai {
+            height: 5rem;
+        }
+
+        button {
+            background-color: #E7700D;
+            color: rgba(255,255,255,0.8);
+            border: none;
+            padding-right: 1.8%;
+            padding-left: 1.8%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+            margin-top: 25px;
+            margin-bottom: 5%;
+            i {
+                font-size: 1.1rem;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .box4 {
+        display: flex;
+        margin-bottom: 10%;
+        margin-right: 150px;
+        gap: 2%;
+
+        .advertising {
+            height: 5rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+            padding-right: 40px;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        .box4_left, .box4_right {
+            border-radius: 10px;
+            border: solid 2px rgb(242, 242, 242);
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-top: 2%;
+            width: 50%;
+        }
+
+        .advertise {
+            background-color: #1B75CF;
+            color: rgba(255,255,255,0.8);
+            border: none;
+            padding-right: 1.8%;
+            padding-left: 1.8%;
+            padding-top: 1.5%;
+            padding-bottom: 1.5%;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 2%;
+        }
+
+        .build {
+            background-color: transparent;
+            border: none;
+            color: #1B75CF;
+            margin-top: 30px;
+            font-weight: 500;
+            text-decoration: underline;
+            margin-bottom: 0px;
+            font-size: 1.3rem;
+            margin-left: 10px;
+        }
+    }
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 30px;
+    width: 19rem;
+    height: 100vh;
+    position: fixed;
+    button {
+        background-color: white;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        height: 5%;
+        padding-top: 8%;
+        padding-bottom: 10%;
+        padding-left: 10px;
+        margin-right: auto;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    button:focus {
+        background-color:#F1F2F3;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #F9FAFA;
+    }
+
+    .users, .labs {
+        margin-top: 15%;
+    }
+    
+    .labs {
+        font-weight: bold;
+    }
+}
+
+.box1 {
+    color: black;
+    position: relative;
+    background-color: #F9FAFA;
+    z-index: -1;
+    display: flex;
+    margin-right: 150px;
+    padding-left: 40px;
+    padding-top: 40px;
+
+    .developer {
+        color: white;
+        margin: 5px;
+        z-index: 2;
+    }
+
+    h1 {
+        font-family: Epic, bold;
+        font-size: 4rem;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.7rem;
+        width: 100%;
+        margin-top: 2%;
+        color: rgba(0,0,0,0.5);
+    }
+
+    button {
+        margin-top: 4%;
+        margin-bottom: 12%;
+    }
+
+    .sign {
+        background-color: #1B75CF;
+        color: rgba(255,255,255,0.8);
+        border: none;
+        margin-right: 0px;
+        right: 0px;
+        padding: 2%;
+        border-radius: 5px;
+    }
+    
+    .visit {
+        background-color: transparent;
+        border: none;
+        color: #1B75CF;
+        margin-top: 0;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+}
+
+main {
+    margin-top: 3.5%;
+}
