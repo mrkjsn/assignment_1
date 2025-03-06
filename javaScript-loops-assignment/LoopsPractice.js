@@ -39,3 +39,6 @@ for(let i=arr2.length-1; i>=0; i--) {
 }
 
 
+document.getElementById("clickMe").addEventListener("click", function () {
+    alert("Button clicked!");
+});
